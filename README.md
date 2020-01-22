@@ -25,7 +25,7 @@ See [Homework_6.pdf](https://github.com/Splend1d/FRAIG/blob/master/Homework_6.pd
 
 ### Implementation of optimization commands
 Example circuit aag and svg files can be found at /demo  
-The color of an gate in the visualized circuit corresponds to the different types of gates. Yellow denotes CONST0 gate, red denotes PI gates(primary input), gray trapezoid denotes AND gates, aqua denotes PO gates(primary output), and green denotes UNDEF gates(undefined). The circle attach to a gate indicates that the signal is reversed on this connection.
+The color of an gate in the visualized circuit corresponds to the different types of gates. Yellow denotes CONST0 gate, red denotes PI gates(primary input), black trapezoid denotes AND gates, aqua denotes PO gates(primary output), and green denotes UNDEF gates(undefined). The circle attach to a gate indicates that the signal is reversed on this connection.
 
 ### CIRSWeep
 #### Description : 
