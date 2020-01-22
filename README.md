@@ -59,4 +59,11 @@ Description: Based on the identified (I)FEC pairs/groups, perform fraig operatio
 | :---:  | :---: |
 | ![Before Strash](https://github.com/Splend1d/FRAIG/blob/master/demo/fr-before.svg) | ![After Strash](https://github.com/Splend1d/FRAIG/blob/master/demo/fr-after.svg) |
 
+What is worth noting is that the above example cannot be reduced by any of the other commands, whereas CIROPTimize and CIRSTRash are essentially a subset of CIRFRaig, so CIRFRAIG can also do these two types of optimization (however, it is far less efficient).
 
+| Before Fraig | After Fraig |
+| :---:  | :---: |
+| ![Before Optimize](https://github.com/Splend1d/FRAIG/blob/master/demo/opt-before.svg) | ![After Optimize](https://github.com/Splend1d/FRAIG/blob/master/demo/opt-after.svg) |
+| ![Before Strash](https://github.com/Splend1d/FRAIG/blob/master/demo/str-before.svg) | ![After Strash](https://github.com/Splend1d/FRAIG/blob/master/demo/str-after.svg) |
+
+Be sure to also check out [AAG Visualizer](https://byronhsu.github.io/AAG-Visualizer/) developed by Bryon, Hsu and Adrian, Hsu!
