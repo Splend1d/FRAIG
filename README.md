@@ -38,14 +38,14 @@ Description: Perform trivial circuit optimizations including constant propagatio
 
 | Before Optimize | After Optimize |
 | :---:  | :---: |
-| ![Before Optimize](https://github.com/Splend1d/FRAIG/blob/master/demo/sw-before.svg) | ![After Optimize](https://github.com/Splend1d/FRAIG/blob/master/demo/sw-before.svg) |
+| ![Before Optimize](https://github.com/Splend1d/FRAIG/blob/master/demo/opt-before.svg) | ![After Optimize](https://github.com/Splend1d/FRAIG/blob/master/demo/opt-before.svg) |
 ### 3. CIRSTRash
 Description: Merge the structurally equivalent gates. After the merger, the fanouts of the merged gate will be re-connected to the gate that merges it. Unless the circuit is re-read, or optimization or “fraig” operation has been performed, it does not make sense to perform strash multiple times. If repeated “CIRSTRash” is issued, output an error message: `Error: strash operation has already
 been performed!!`
 
 | Before Strash | After Strash |
 | :---:  | :---: |
-| ![Before Strash](https://github.com/Splend1d/FRAIG/blob/master/demo/sw-before.svg) | ![After Strash](https://github.com/Splend1d/FRAIG/blob/master/demo/sw-before.svg) |
+| ![Before Strash](https://github.com/Splend1d/FRAIG/blob/master/demo/str-before.svg) | ![After Strash](https://github.com/Splend1d/FRAIG/blob/master/demo/str-before.svg) |
 ### 4. CIRSIMulate
 Description: Perform circuit simulation to distinguish the functionally different signals and thus collect the FEC pairs/groups. 
 * If `-Random` option is specified, perform random simulation until satisfactory. A stopping criteria if devised for the random simulation so that the FEC identification can be as efficient as possible. 
@@ -54,4 +54,9 @@ Description: Perform circuit simulation to distinguish the functionally differen
 
 ### 5. CIRFRaig
 Description: Based on the identified (I)FEC pairs/groups, perform fraig operations on the circuit. All the SAT-proven equivalent gates should be merged together. Sweeping or trivial optimization on the resulted floating gates will not be performed, if these operation are desired, call CIRSWeep and CIROPTimize commands.
+
+| Before Fraig | After Fraig |
+| :---:  | :---: |
+| ![Before Strash](https://github.com/Splend1d/FRAIG/blob/master/demo/fr-before.svg) | ![After Strash](https://github.com/Splend1d/FRAIG/blob/master/demo/fr-before.svg) |
+
 
