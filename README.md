@@ -21,7 +21,7 @@ or
 
 `    ./fraig -F <doFile>`
 ### List of availible commands and description
-See [Homework_6.pdf](https://github.com/Splend1d/FRAIG/Homework_6.pdf) and [FraigProject.pdf](https://github.com/Splend1d/FRAIG/FraigProject.pdf) for details
+See [Homework_6.pdf](https://github.com/Splend1d/FRAIG/blob/master/Homework_6.pdf) and [FraigProject.pdf](https://github.com/Splend1d/FRAIG/blob/master/FraigProject.pdf) for details
 
 ### Implementation of optimization commands
 Example circuit aag and svg files can be found at /demo
