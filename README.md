@@ -53,8 +53,10 @@ Description: Perform circuit simulation to distinguish the functionally differen
 * The `-Output` option designates the name of the log file. After the simulations, the number of input patterns that have been simulated will be reported.
 
 ### 5. CIRFRaig
+Description: Based on the identified (I)FEC pairs/groups, perform fraig operations on the circuit. All the SAT-proven equivalent gates should be merged together. Sweeping or trivial optimization on the resulted floating gates will not be performed, if these operation are desired, call CIRSWeep and CIROPTimize commands.
+
 | Before Fraig | After Fraig |
 | :---:  | :---: |
 | ![Before Strash](https://github.com/Splend1d/FRAIG/blob/master/demo/fr-before.svg) | ![After Strash](https://github.com/Splend1d/FRAIG/blob/master/demo/fr-before.svg) |
-Description: Based on the identified (I)FEC pairs/groups, perform fraig operations on the circuit. All the SAT-proven equivalent gates should be merged together. Sweeping or trivial optimization on the resulted floating gates will not be performed, if these operation are desired, call CIRSWeep and CIROPTimize commands.
+
 
