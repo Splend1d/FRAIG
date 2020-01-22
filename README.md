@@ -31,21 +31,21 @@ Description: Remove the gates that cannot be reached from Primary Outputs.
 
 | Before Sweep | After Sweep |
 | :---:  | :---: |
-| ![Before Sweep](https://github.com/Splend1d/FRAIG/blob/master/demo/sw-before.svg) | ![After Sweep](https://github.com/Splend1d/FRAIG/blob/master/demo/sw-before.svg) |
+| ![Before Sweep](https://github.com/Splend1d/FRAIG/blob/master/demo/sw-before.svg) | ![After Sweep](https://github.com/Splend1d/FRAIG/blob/master/demo/sw-after.svg) |
 ### 2. CIROPTimize
 Description: Perform trivial circuit optimizations including constant propagation and redundant gate removal. This command can be evoked anytime except when `CIRSIMulate` command is just called. In such case, an error message `Do "CIRFraig" first!!”` will be issued.
 
 
 | Before Optimize | After Optimize |
 | :---:  | :---: |
-| ![Before Optimize](https://github.com/Splend1d/FRAIG/blob/master/demo/opt-before.svg) | ![After Optimize](https://github.com/Splend1d/FRAIG/blob/master/demo/opt-before.svg) |
+| ![Before Optimize](https://github.com/Splend1d/FRAIG/blob/master/demo/opt-before.svg) | ![After Optimize](https://github.com/Splend1d/FRAIG/blob/master/demo/opt-after.svg) |
 ### 3. CIRSTRash
 Description: Merge the structurally equivalent gates. After the merger, the fanouts of the merged gate will be re-connected to the gate that merges it. Unless the circuit is re-read, or optimization or “fraig” operation has been performed, it does not make sense to perform strash multiple times. If repeated “CIRSTRash” is issued, output an error message: `Error: strash operation has already
 been performed!!`
 
 | Before Strash | After Strash |
 | :---:  | :---: |
-| ![Before Strash](https://github.com/Splend1d/FRAIG/blob/master/demo/str-before.svg) | ![After Strash](https://github.com/Splend1d/FRAIG/blob/master/demo/str-before.svg) |
+| ![Before Strash](https://github.com/Splend1d/FRAIG/blob/master/demo/str-before.svg) | ![After Strash](https://github.com/Splend1d/FRAIG/blob/master/demo/str-after.svg) |
 ### 4. CIRSIMulate
 Description: Perform circuit simulation to distinguish the functionally different signals and thus collect the FEC pairs/groups. 
 * If `-Random` option is specified, perform random simulation until satisfactory. A stopping criteria if devised for the random simulation so that the FEC identification can be as efficient as possible. 
@@ -57,6 +57,6 @@ Description: Based on the identified (I)FEC pairs/groups, perform fraig operatio
 
 | Before Fraig | After Fraig |
 | :---:  | :---: |
-| ![Before Strash](https://github.com/Splend1d/FRAIG/blob/master/demo/fr-before.svg) | ![After Strash](https://github.com/Splend1d/FRAIG/blob/master/demo/fr-before.svg) |
+| ![Before Strash](https://github.com/Splend1d/FRAIG/blob/master/demo/fr-before.svg) | ![After Strash](https://github.com/Splend1d/FRAIG/blob/master/demo/fr-after.svg) |
 
 
