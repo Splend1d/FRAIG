@@ -66,4 +66,4 @@ What is worth noting is that the above example cannot be reduced by any of the o
 | ![Before Optimize](https://github.com/Splend1d/FRAIG/blob/master/demo/opt-before.svg) | ![After Optimize](https://github.com/Splend1d/FRAIG/blob/master/demo/opt-after.svg) |
 | ![Before Strash](https://github.com/Splend1d/FRAIG/blob/master/demo/str-before.svg) | ![After Strash](https://github.com/Splend1d/FRAIG/blob/master/demo/str-after.svg) |
 
-Be sure to also check out [AAG Visualizer](https://byronhsu.github.io/AAG-Visualizer/) developed by Bryon, Hsu and Adrian, Hsu!
+All the circuit visuals are generated from [AAG Visualizer](https://byronhsu.github.io/AAG-Visualizer/) developed by Bryon, Hsu and Adrian, Hsu. Be sure to check it out!
