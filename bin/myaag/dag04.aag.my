@@ -1,0 +1,331 @@
+fraig> cirr ./myaag/dag04.aag
+
+fraig> cirp
+
+Circuit Statistics
+==================
+  PI          10
+  PO          10
+  AIG         80
+------------------
+  Total      100
+
+fraig> cirp -pi
+PIs of the circuit: 1 2 3 4 5 6 7 8 9 10
+
+fraig> cirp -po
+POs of the circuit: 101 102 103 104 105 106 107 108 109 110
+
+fraig> cirp -n
+
+[0] PI  3 (PNMPOY)
+[1] PI  8 (SYEENS)
+[2] AIG 29 3 !8
+[3] PI  2 (SOGPWL)
+[4] PI  1 (BBRTGS)
+[5] AIG 11 !3 1
+[6] PI  5 (BOONDR)
+[7] AIG 26 11 5
+[8] AIG 98 !2 26
+[9] AIG 99 29 !98
+[10] PO  101 99 (FNACUZ)
+[11] PO  102 98 (EUTZZC)
+[12] PI  10 (YJQMYT)
+[13] AIG 13 !3 10
+[14] AIG 14 13 !10
+[15] AIG 15 !14 !10
+[16] AIG 17 15 !1
+[17] PI  9 (ERGDFZ)
+[18] AIG 18 17 9
+[19] AIG 16 !15 11
+[20] AIG 27 !18 !16
+[21] AIG 75 27 !5
+[22] AIG 22 !18 !10
+[23] AIG 24 !22 !13
+[24] PI  6 (NEUGZC)
+[25] AIG 23 !2 6
+[26] AIG 31 23 3
+[27] AIG 79 !24 31
+[28] AIG 97 !75 !79
+[29] PO  103 97 (QTAUXP)
+[30] PI  4 (CMXOTU)
+[31] AIG 81 4 22
+[32] AIG 96 81 !10
+[33] PO  104 96 (MEJSHO)
+[34] CONST0
+[35] AIG 21 13 0
+[36] AIG 32 29 11
+[37] AIG 95 !21 !32
+[38] PO  105 95 (UFZMUY)
+[39] AIG 94 29 !81
+[40] PO  106 94 (FBLHDH)
+[41] AIG 34 !11 !24
+[42] AIG 36 11 34
+[43] AIG 40 5 !36
+[44] AIG 46 34 !17
+[45] AIG 66 !46 0
+[46] AIG 92 40 !66
+[47] PO  107 92 (HICAJD)
+[48] AIG 49 !46 8
+[49] AIG 91 !49 4
+[50] PO  108 91 (FAXFUW)
+[51] AIG 90 29 75
+[52] PO  109 90 (XHAGBI)
+[53] AIG 41 40 4
+[54] AIG 83 41 14
+[55] AIG 28 !6 10
+[56] AIG 38 21 28
+[57] AIG 89 83 !38
+[58] PO  110 89 (UXPWJL)
+
+fraig> cirp -fl
+Gates defined but not used  : 39 43 48 55 56 58 59 64 65 67 69 71 72 73 77 78 84 85 86 87 88
+
+fraig> usage
+Period time used : 0 seconds
+Total time used  : 0 seconds
+Total memory used: 0 M Bytes
+
+fraig> ciropt
+Simplifying: 0 merging 21...
+Simplifying: 32 merging !95...
+Simplifying: 0 merging 66...
+Simplifying: 40 merging 92...
+Simplifying: 0 merging 38...
+Simplifying: 83 merging 89...
+
+fraig> cirp
+
+Circuit Statistics
+==================
+  PI          10
+  PO          10
+  AIG         74
+------------------
+  Total       94
+
+fraig> usage
+Period time used : 0 seconds
+Total time used  : 0 seconds
+Total memory used: 0 M Bytes
+
+fraig> cirsw
+Sweeping: AIG(88) removed...
+Sweeping: AIG(87) removed...
+Sweeping: AIG(86) removed...
+Sweeping: AIG(85) removed...
+Sweeping: AIG(84) removed...
+Sweeping: AIG(80) removed...
+Sweeping: AIG(54) removed...
+Sweeping: AIG(52) removed...
+Sweeping: AIG(50) removed...
+Sweeping: AIG(48) removed...
+Sweeping: AIG(45) removed...
+Sweeping: AIG(42) removed...
+Sweeping: AIG(47) removed...
+Sweeping: AIG(28) removed...
+Sweeping: AIG(68) removed...
+Sweeping: AIG(43) removed...
+Sweeping: AIG(25) removed...
+Sweeping: AIG(65) removed...
+Sweeping: AIG(51) removed...
+Sweeping: AIG(33) removed...
+Sweeping: AIG(73) removed...
+Sweeping: AIG(53) removed...
+Sweeping: AIG(35) removed...
+Sweeping: AIG(37) removed...
+Sweeping: AIG(77) removed...
+Sweeping: AIG(39) removed...
+Sweeping: AIG(55) removed...
+Sweeping: AIG(56) removed...
+Sweeping: AIG(57) removed...
+Sweeping: AIG(58) removed...
+Sweeping: AIG(59) removed...
+Sweeping: AIG(60) removed...
+Sweeping: AIG(61) removed...
+Sweeping: AIG(62) removed...
+Sweeping: AIG(64) removed...
+Sweeping: AIG(67) removed...
+Sweeping: AIG(69) removed...
+Sweeping: AIG(71) removed...
+Sweeping: AIG(72) removed...
+Sweeping: AIG(74) removed...
+Sweeping: AIG(76) removed...
+Sweeping: AIG(78) removed...
+
+fraig> cirp
+
+Circuit Statistics
+==================
+  PI          10
+  PO          10
+  AIG         32
+------------------
+  Total       52
+
+fraig> usage
+Period time used : 0 seconds
+Total time used  : 0 seconds
+Total memory used: 0 M Bytes
+
+fraig> cirstrash
+
+fraig> usage
+Period time used : 0 seconds
+Total time used  : 0 seconds
+Total memory used: 0 M Bytes
+
+fraig> cirsw
+
+fraig> cirp
+
+Circuit Statistics
+==================
+  PI          10
+  PO          10
+  AIG         32
+------------------
+  Total       52
+
+fraig> usage
+Period time used : 0 seconds
+Total time used  : 0 seconds
+Total memory used: 0 M Bytes
+
+fraig> cirsim -random
+Total #FEC Group = 3Total #FEC Group = 3Total #FEC Group = 3Total #FEC Group = 3Total #FEC Group = 3Total #FEC Group = 3Total #FEC Group = 3Total #FEC Group = 3Total #FEC Group = 3Total #FEC Group = 3Total #FEC Group = 3Total #FEC Group = 3Total #FEC Group = 3Total #FEC Group = 3Total #FEC Group = 3Total #FEC Group = 3Total #FEC Group = 3Total #FEC Group = 3Total #FEC Group = 3Total #FEC Group = 3Total #FEC Group = 3Total #FEC Group = 3Total #FEC Group = 3Total #FEC Group = 3Total #FEC Group = 3Total #FEC Group = 3Total #FEC Group = 3Total #FEC Group = 3Total #FEC Group = 3Total #FEC Group = 3Total #FEC Group = 3Total #FEC Group = 3Total #FEC Group = 3Total #FEC Group = 3Total #FEC Group = 3Total #FEC Group = 3Total #FEC Group = 3Total #FEC Group = 3Total #FEC Group = 3Total #FEC Group = 3Total #FEC Group = 3Total #FEC Group = 3Total #FEC Group = 3Total #FEC Group = 3Total #FEC Group = 3Total #FEC Group = 3Total #FEC Group = 3Total #FEC Group = 3Total #FEC Group = 3Total #FEC Group = 3Total #FEC Group = 3Total #FEC Group = 3Total #FEC Group = 3Total #FEC Group = 3Total #FEC Group = 3Total #FEC Group = 3Total #FEC Group = 3Total #FEC Group = 3Total #FEC Group = 3Total #FEC Group = 3Total #FEC Group = 3Total #FEC Group = 3Total #FEC Group = 3Total #FEC Group = 3Total #FEC Group = 34160 patterns simulated.
+
+fraig> usage
+Period time used : 0 seconds
+Total time used  : 0 seconds
+Total memory used: 0 M Bytes
+
+fraig> cirp -fec
+[0] 0 14 32 36 83
+[1] 29 99
+[2] 81 96
+
+fraig> usage
+Period time used : 0 seconds
+Total time used  : 0 seconds
+Total memory used: 0 M Bytes
+
+fraig> cirfraig
+Proving 1 = 14...UNSATProving 1 = 32...UNSATProving 1 = 36...UNSATProving 1 = 83...UNSATProving (29 , 99)...UNSATProving (81 , 96)...UNSATUpdating by UNSAT ... Total #FEC Group = 0
+Fraig: 29 merging 99...
+Fraig: 0 merging 14...
+Fraig: 81 merging 96...
+Fraig: 0 merging 32...
+Fraig: 0 merging 36...
+Fraig: 0 merging 83...
+
+fraig> cirp
+
+Circuit Statistics
+==================
+  PI          10
+  PO          10
+  AIG         26
+------------------
+  Total       46
+
+fraig> usage
+Period time used : 0 seconds
+Total time used  : 0 seconds
+Total memory used: 0 M Bytes
+
+fraig> ciropt
+Simplifying: 10 merging !15...
+Simplifying: 5 merging 40...
+
+fraig> cirp
+
+Circuit Statistics
+==================
+  PI          10
+  PO          10
+  AIG         24
+------------------
+  Total       44
+
+fraig> usage
+Period time used : 0 seconds
+Total time used  : 0 seconds
+Total memory used: 0 M Bytes
+
+fraig> cirsw
+Sweeping: AIG(41) removed...
+
+fraig> cirp
+
+Circuit Statistics
+==================
+  PI          10
+  PO          10
+  AIG         23
+------------------
+  Total       43
+
+fraig> usage
+Period time used : 0 seconds
+Total time used  : 0 seconds
+Total memory used: 0 M Bytes
+
+fraig> cirp -n
+
+[0] PI  3 (PNMPOY)
+[1] PI  8 (SYEENS)
+[2] AIG 29 3 !8
+[3] PO  101 29 (FNACUZ)
+[4] PI  2 (SOGPWL)
+[5] PI  1 (BBRTGS)
+[6] AIG 11 !3 1
+[7] PI  5 (BOONDR)
+[8] AIG 26 11 5
+[9] AIG 98 !2 26
+[10] PO  102 98 (EUTZZC)
+[11] PI  10 (YJQMYT)
+[12] AIG 17 !10 !1
+[13] PI  9 (ERGDFZ)
+[14] AIG 18 17 9
+[15] AIG 16 10 11
+[16] AIG 27 !18 !16
+[17] AIG 75 27 !5
+[18] AIG 22 !18 !10
+[19] AIG 13 !3 10
+[20] AIG 24 !22 !13
+[21] PI  6 (NEUGZC)
+[22] AIG 23 !2 6
+[23] AIG 31 23 3
+[24] AIG 79 !24 31
+[25] AIG 97 !75 !79
+[26] PO  103 97 (QTAUXP)
+[27] PI  4 (CMXOTU)
+[28] AIG 81 4 22
+[29] PO  104 81 (MEJSHO)
+[30] CONST0
+[31] PO  105 !0 (UFZMUY)
+[32] AIG 94 29 !81
+[33] PO  106 94 (FBLHDH)
+[34] PO  107 5 (HICAJD)
+[35] AIG 34 !11 !24
+[36] AIG 46 34 !17
+[37] AIG 49 !46 8
+[38] AIG 91 !49 4
+[39] PO  108 91 (FAXFUW)
+[40] AIG 90 29 75
+[41] PO  109 90 (XHAGBI)
+[42] PO  110 0 (UXPWJL)
+
+fraig> cirp -fl
+Gates defined but not used  : 7
+
+fraig> cirp -fec
+
+fraig> usage
+Period time used : 0 seconds
+Total time used  : 0 seconds
+Total memory used: 0 M Bytes
+
+fraig> q -f
+

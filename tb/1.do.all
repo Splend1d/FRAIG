@@ -1,0 +1,1197 @@
+cirr C1355.aag -r 
+cirp -n
+cirp -s
+cirp -po
+cirp -pi
+cirp -fl
+cirg 1
+cirg 2
+cirg 3
+cirg 4
+cirg 5
+cirg 6
+cirg 3 -fanin 3
+cirg 25 -fanin 4
+cirg 567 -fanin 6
+cirg 63 -fanout 5
+cirg 12 -fanin 1
+cirg 7 -fanin 1
+cirg 1 -fanout 10
+cirg 8 -fanout 1000
+cirg 10
+cirg 25 -fanin 10
+cirg 87
+cirg 1000
+cirg 1000 -fanin 1000
+cirw -o C1355.aag.out
+cirr strash10.aag -r 
+cirp -n
+cirp -s
+cirp -po
+cirp -pi
+cirp -fl
+cirg 1
+cirg 2
+cirg 3
+cirg 4
+cirg 5
+cirg 6
+cirg 3 -fanin 3
+cirg 25 -fanin 4
+cirg 567 -fanin 6
+cirg 63 -fanout 5
+cirg 12 -fanin 1
+cirg 7 -fanin 1
+cirg 1 -fanout 10
+cirg 8 -fanout 1000
+cirg 10
+cirg 25 -fanin 10
+cirg 87
+cirg 1000
+cirg 1000 -fanin 1000
+cirw -o strash10.aag.out
+cirr opt01.aag -r 
+cirp -n
+cirp -s
+cirp -po
+cirp -pi
+cirp -fl
+cirg 1
+cirg 2
+cirg 3
+cirg 4
+cirg 5
+cirg 6
+cirg 3 -fanin 3
+cirg 25 -fanin 4
+cirg 567 -fanin 6
+cirg 63 -fanout 5
+cirg 12 -fanin 1
+cirg 7 -fanin 1
+cirg 1 -fanout 10
+cirg 8 -fanout 1000
+cirg 10
+cirg 25 -fanin 10
+cirg 87
+cirg 1000
+cirg 1000 -fanin 1000
+cirw -o opt01.aag.out
+cirr opt02.aag -r 
+cirp -n
+cirp -s
+cirp -po
+cirp -pi
+cirp -fl
+cirg 1
+cirg 2
+cirg 3
+cirg 4
+cirg 5
+cirg 6
+cirg 3 -fanin 3
+cirg 25 -fanin 4
+cirg 567 -fanin 6
+cirg 63 -fanout 5
+cirg 12 -fanin 1
+cirg 7 -fanin 1
+cirg 1 -fanout 10
+cirg 8 -fanout 1000
+cirg 10
+cirg 25 -fanin 10
+cirg 87
+cirg 1000
+cirg 1000 -fanin 1000
+cirw -o opt02.aag.out
+cirr sim02.aag -r 
+cirp -n
+cirp -s
+cirp -po
+cirp -pi
+cirp -fl
+cirg 1
+cirg 2
+cirg 3
+cirg 4
+cirg 5
+cirg 6
+cirg 3 -fanin 3
+cirg 25 -fanin 4
+cirg 567 -fanin 6
+cirg 63 -fanout 5
+cirg 12 -fanin 1
+cirg 7 -fanin 1
+cirg 1 -fanout 10
+cirg 8 -fanout 1000
+cirg 10
+cirg 25 -fanin 10
+cirg 87
+cirg 1000
+cirg 1000 -fanin 1000
+cirw -o sim02.aag.out
+cirr opt03.aag -r 
+cirp -n
+cirp -s
+cirp -po
+cirp -pi
+cirp -fl
+cirg 1
+cirg 2
+cirg 3
+cirg 4
+cirg 5
+cirg 6
+cirg 3 -fanin 3
+cirg 25 -fanin 4
+cirg 567 -fanin 6
+cirg 63 -fanout 5
+cirg 12 -fanin 1
+cirg 7 -fanin 1
+cirg 1 -fanout 10
+cirg 8 -fanout 1000
+cirg 10
+cirg 25 -fanin 10
+cirg 87
+cirg 1000
+cirg 1000 -fanin 1000
+cirw -o opt03.aag.out
+cirr strash05.aag -r 
+cirp -n
+cirp -s
+cirp -po
+cirp -pi
+cirp -fl
+cirg 1
+cirg 2
+cirg 3
+cirg 4
+cirg 5
+cirg 6
+cirg 3 -fanin 3
+cirg 25 -fanin 4
+cirg 567 -fanin 6
+cirg 63 -fanout 5
+cirg 12 -fanin 1
+cirg 7 -fanin 1
+cirg 1 -fanout 10
+cirg 8 -fanout 1000
+cirg 10
+cirg 25 -fanin 10
+cirg 87
+cirg 1000
+cirg 1000 -fanin 1000
+cirw -o strash05.aag.out
+cirr strash04.aag -r 
+cirp -n
+cirp -s
+cirp -po
+cirp -pi
+cirp -fl
+cirg 1
+cirg 2
+cirg 3
+cirg 4
+cirg 5
+cirg 6
+cirg 3 -fanin 3
+cirg 25 -fanin 4
+cirg 567 -fanin 6
+cirg 63 -fanout 5
+cirg 12 -fanin 1
+cirg 7 -fanin 1
+cirg 1 -fanout 10
+cirg 8 -fanout 1000
+cirg 10
+cirg 25 -fanin 10
+cirg 87
+cirg 1000
+cirg 1000 -fanin 1000
+cirw -o strash04.aag.out
+cirr cirp-n.aag -r 
+cirp -n
+cirp -s
+cirp -po
+cirp -pi
+cirp -fl
+cirg 1
+cirg 2
+cirg 3
+cirg 4
+cirg 5
+cirg 6
+cirg 3 -fanin 3
+cirg 25 -fanin 4
+cirg 567 -fanin 6
+cirg 63 -fanout 5
+cirg 12 -fanin 1
+cirg 7 -fanin 1
+cirg 1 -fanout 10
+cirg 8 -fanout 1000
+cirg 10
+cirg 25 -fanin 10
+cirg 87
+cirg 1000
+cirg 1000 -fanin 1000
+cirw -o cirp-n.aag.out
+cirr strash01.aag -r 
+cirp -n
+cirp -s
+cirp -po
+cirp -pi
+cirp -fl
+cirg 1
+cirg 2
+cirg 3
+cirg 4
+cirg 5
+cirg 6
+cirg 3 -fanin 3
+cirg 25 -fanin 4
+cirg 567 -fanin 6
+cirg 63 -fanout 5
+cirg 12 -fanin 1
+cirg 7 -fanin 1
+cirg 1 -fanout 10
+cirg 8 -fanout 1000
+cirg 10
+cirg 25 -fanin 10
+cirg 87
+cirg 1000
+cirg 1000 -fanin 1000
+cirw -o strash01.aag.out
+cirr C432_r.aag -r 
+cirp -n
+cirp -s
+cirp -po
+cirp -pi
+cirp -fl
+cirg 1
+cirg 2
+cirg 3
+cirg 4
+cirg 5
+cirg 6
+cirg 3 -fanin 3
+cirg 25 -fanin 4
+cirg 567 -fanin 6
+cirg 63 -fanout 5
+cirg 12 -fanin 1
+cirg 7 -fanin 1
+cirg 1 -fanout 10
+cirg 8 -fanout 1000
+cirg 10
+cirg 25 -fanin 10
+cirg 87
+cirg 1000
+cirg 1000 -fanin 1000
+cirw -o C432_r.aag.out
+cirr strash07.aag -r 
+cirp -n
+cirp -s
+cirp -po
+cirp -pi
+cirp -fl
+cirg 1
+cirg 2
+cirg 3
+cirg 4
+cirg 5
+cirg 6
+cirg 3 -fanin 3
+cirg 25 -fanin 4
+cirg 567 -fanin 6
+cirg 63 -fanout 5
+cirg 12 -fanin 1
+cirg 7 -fanin 1
+cirg 1 -fanout 10
+cirg 8 -fanout 1000
+cirg 10
+cirg 25 -fanin 10
+cirg 87
+cirg 1000
+cirg 1000 -fanin 1000
+cirw -o strash07.aag.out
+cirr C880.aag -r 
+cirp -n
+cirp -s
+cirp -po
+cirp -pi
+cirp -fl
+cirg 1
+cirg 2
+cirg 3
+cirg 4
+cirg 5
+cirg 6
+cirg 3 -fanin 3
+cirg 25 -fanin 4
+cirg 567 -fanin 6
+cirg 63 -fanout 5
+cirg 12 -fanin 1
+cirg 7 -fanin 1
+cirg 1 -fanout 10
+cirg 8 -fanout 1000
+cirg 10
+cirg 25 -fanin 10
+cirg 87
+cirg 1000
+cirg 1000 -fanin 1000
+cirw -o C880.aag.out
+cirr sim05.aag -r 
+cirp -n
+cirp -s
+cirp -po
+cirp -pi
+cirp -fl
+cirg 1
+cirg 2
+cirg 3
+cirg 4
+cirg 5
+cirg 6
+cirg 3 -fanin 3
+cirg 25 -fanin 4
+cirg 567 -fanin 6
+cirg 63 -fanout 5
+cirg 12 -fanin 1
+cirg 7 -fanin 1
+cirg 1 -fanout 10
+cirg 8 -fanout 1000
+cirg 10
+cirg 25 -fanin 10
+cirg 87
+cirg 1000
+cirg 1000 -fanin 1000
+cirw -o sim05.aag.out
+cirr strash06.aag -r 
+cirp -n
+cirp -s
+cirp -po
+cirp -pi
+cirp -fl
+cirg 1
+cirg 2
+cirg 3
+cirg 4
+cirg 5
+cirg 6
+cirg 3 -fanin 3
+cirg 25 -fanin 4
+cirg 567 -fanin 6
+cirg 63 -fanout 5
+cirg 12 -fanin 1
+cirg 7 -fanin 1
+cirg 1 -fanout 10
+cirg 8 -fanout 1000
+cirg 10
+cirg 25 -fanin 10
+cirg 87
+cirg 1000
+cirg 1000 -fanin 1000
+cirw -o strash06.aag.out
+cirr C3540.aag -r 
+cirp -n
+cirp -s
+cirp -po
+cirp -pi
+cirp -fl
+cirg 1
+cirg 2
+cirg 3
+cirg 4
+cirg 5
+cirg 6
+cirg 3 -fanin 3
+cirg 25 -fanin 4
+cirg 567 -fanin 6
+cirg 63 -fanout 5
+cirg 12 -fanin 1
+cirg 7 -fanin 1
+cirg 1 -fanout 10
+cirg 8 -fanout 1000
+cirg 10
+cirg 25 -fanin 10
+cirg 87
+cirg 1000
+cirg 1000 -fanin 1000
+cirw -o C3540.aag.out
+cirr sim15.aag -r 
+cirp -n
+cirp -s
+cirp -po
+cirp -pi
+cirp -fl
+cirg 1
+cirg 2
+cirg 3
+cirg 4
+cirg 5
+cirg 6
+cirg 3 -fanin 3
+cirg 25 -fanin 4
+cirg 567 -fanin 6
+cirg 63 -fanout 5
+cirg 12 -fanin 1
+cirg 7 -fanin 1
+cirg 1 -fanout 10
+cirg 8 -fanout 1000
+cirg 10
+cirg 25 -fanin 10
+cirg 87
+cirg 1000
+cirg 1000 -fanin 1000
+cirw -o sim15.aag.out
+cirr strash08.aag -r 
+cirp -n
+cirp -s
+cirp -po
+cirp -pi
+cirp -fl
+cirg 1
+cirg 2
+cirg 3
+cirg 4
+cirg 5
+cirg 6
+cirg 3 -fanin 3
+cirg 25 -fanin 4
+cirg 567 -fanin 6
+cirg 63 -fanout 5
+cirg 12 -fanin 1
+cirg 7 -fanin 1
+cirg 1 -fanout 10
+cirg 8 -fanout 1000
+cirg 10
+cirg 25 -fanin 10
+cirg 87
+cirg 1000
+cirg 1000 -fanin 1000
+cirw -o strash08.aag.out
+cirr sim08.aag -r 
+cirp -n
+cirp -s
+cirp -po
+cirp -pi
+cirp -fl
+cirg 1
+cirg 2
+cirg 3
+cirg 4
+cirg 5
+cirg 6
+cirg 3 -fanin 3
+cirg 25 -fanin 4
+cirg 567 -fanin 6
+cirg 63 -fanout 5
+cirg 12 -fanin 1
+cirg 7 -fanin 1
+cirg 1 -fanout 10
+cirg 8 -fanout 1000
+cirg 10
+cirg 25 -fanin 10
+cirg 87
+cirg 1000
+cirg 1000 -fanin 1000
+cirw -o sim08.aag.out
+cirr C499.aag -r 
+cirp -n
+cirp -s
+cirp -po
+cirp -pi
+cirp -fl
+cirg 1
+cirg 2
+cirg 3
+cirg 4
+cirg 5
+cirg 6
+cirg 3 -fanin 3
+cirg 25 -fanin 4
+cirg 567 -fanin 6
+cirg 63 -fanout 5
+cirg 12 -fanin 1
+cirg 7 -fanin 1
+cirg 1 -fanout 10
+cirg 8 -fanout 1000
+cirg 10
+cirg 25 -fanin 10
+cirg 87
+cirg 1000
+cirg 1000 -fanin 1000
+cirw -o C499.aag.out
+cirr sim03.aag -r 
+cirp -n
+cirp -s
+cirp -po
+cirp -pi
+cirp -fl
+cirg 1
+cirg 2
+cirg 3
+cirg 4
+cirg 5
+cirg 6
+cirg 3 -fanin 3
+cirg 25 -fanin 4
+cirg 567 -fanin 6
+cirg 63 -fanout 5
+cirg 12 -fanin 1
+cirg 7 -fanin 1
+cirg 1 -fanout 10
+cirg 8 -fanout 1000
+cirg 10
+cirg 25 -fanin 10
+cirg 87
+cirg 1000
+cirg 1000 -fanin 1000
+cirw -o sim03.aag.out
+cirr strash03.aag -r 
+cirp -n
+cirp -s
+cirp -po
+cirp -pi
+cirp -fl
+cirg 1
+cirg 2
+cirg 3
+cirg 4
+cirg 5
+cirg 6
+cirg 3 -fanin 3
+cirg 25 -fanin 4
+cirg 567 -fanin 6
+cirg 63 -fanout 5
+cirg 12 -fanin 1
+cirg 7 -fanin 1
+cirg 1 -fanout 10
+cirg 8 -fanout 1000
+cirg 10
+cirg 25 -fanin 10
+cirg 87
+cirg 1000
+cirg 1000 -fanin 1000
+cirw -o strash03.aag.out
+cirr sim06.aag -r 
+cirp -n
+cirp -s
+cirp -po
+cirp -pi
+cirp -fl
+cirg 1
+cirg 2
+cirg 3
+cirg 4
+cirg 5
+cirg 6
+cirg 3 -fanin 3
+cirg 25 -fanin 4
+cirg 567 -fanin 6
+cirg 63 -fanout 5
+cirg 12 -fanin 1
+cirg 7 -fanin 1
+cirg 1 -fanout 10
+cirg 8 -fanout 1000
+cirg 10
+cirg 25 -fanin 10
+cirg 87
+cirg 1000
+cirg 1000 -fanin 1000
+cirw -o sim06.aag.out
+cirr sim14.aag -r 
+cirp -n
+cirp -s
+cirp -po
+cirp -pi
+cirp -fl
+cirg 1
+cirg 2
+cirg 3
+cirg 4
+cirg 5
+cirg 6
+cirg 3 -fanin 3
+cirg 25 -fanin 4
+cirg 567 -fanin 6
+cirg 63 -fanout 5
+cirg 12 -fanin 1
+cirg 7 -fanin 1
+cirg 1 -fanout 10
+cirg 8 -fanout 1000
+cirg 10
+cirg 25 -fanin 10
+cirg 87
+cirg 1000
+cirg 1000 -fanin 1000
+cirw -o sim14.aag.out
+cirr C1908.aag -r 
+cirp -n
+cirp -s
+cirp -po
+cirp -pi
+cirp -fl
+cirg 1
+cirg 2
+cirg 3
+cirg 4
+cirg 5
+cirg 6
+cirg 3 -fanin 3
+cirg 25 -fanin 4
+cirg 567 -fanin 6
+cirg 63 -fanout 5
+cirg 12 -fanin 1
+cirg 7 -fanin 1
+cirg 1 -fanout 10
+cirg 8 -fanout 1000
+cirg 10
+cirg 25 -fanin 10
+cirg 87
+cirg 1000
+cirg 1000 -fanin 1000
+cirw -o C1908.aag.out
+cirr C7552.aag -r 
+cirp -n
+cirp -s
+cirp -po
+cirp -pi
+cirp -fl
+cirg 1
+cirg 2
+cirg 3
+cirg 4
+cirg 5
+cirg 6
+cirg 3 -fanin 3
+cirg 25 -fanin 4
+cirg 567 -fanin 6
+cirg 63 -fanout 5
+cirg 12 -fanin 1
+cirg 7 -fanin 1
+cirg 1 -fanout 10
+cirg 8 -fanout 1000
+cirg 10
+cirg 25 -fanin 10
+cirg 87
+cirg 1000
+cirg 1000 -fanin 1000
+cirw -o C7552.aag.out
+cirr strash02.aag -r 
+cirp -n
+cirp -s
+cirp -po
+cirp -pi
+cirp -fl
+cirg 1
+cirg 2
+cirg 3
+cirg 4
+cirg 5
+cirg 6
+cirg 3 -fanin 3
+cirg 25 -fanin 4
+cirg 567 -fanin 6
+cirg 63 -fanout 5
+cirg 12 -fanin 1
+cirg 7 -fanin 1
+cirg 1 -fanout 10
+cirg 8 -fanout 1000
+cirg 10
+cirg 25 -fanin 10
+cirg 87
+cirg 1000
+cirg 1000 -fanin 1000
+cirw -o strash02.aag.out
+cirr sim13.aag -r 
+cirp -n
+cirp -s
+cirp -po
+cirp -pi
+cirp -fl
+cirg 1
+cirg 2
+cirg 3
+cirg 4
+cirg 5
+cirg 6
+cirg 3 -fanin 3
+cirg 25 -fanin 4
+cirg 567 -fanin 6
+cirg 63 -fanout 5
+cirg 12 -fanin 1
+cirg 7 -fanin 1
+cirg 1 -fanout 10
+cirg 8 -fanout 1000
+cirg 10
+cirg 25 -fanin 10
+cirg 87
+cirg 1000
+cirg 1000 -fanin 1000
+cirw -o sim13.aag.out
+cirr C17.aag -r 
+cirp -n
+cirp -s
+cirp -po
+cirp -pi
+cirp -fl
+cirg 1
+cirg 2
+cirg 3
+cirg 4
+cirg 5
+cirg 6
+cirg 3 -fanin 3
+cirg 25 -fanin 4
+cirg 567 -fanin 6
+cirg 63 -fanout 5
+cirg 12 -fanin 1
+cirg 7 -fanin 1
+cirg 1 -fanout 10
+cirg 8 -fanout 1000
+cirg 10
+cirg 25 -fanin 10
+cirg 87
+cirg 1000
+cirg 1000 -fanin 1000
+cirw -o C17.aag.out
+cirr sim01.aag -r 
+cirp -n
+cirp -s
+cirp -po
+cirp -pi
+cirp -fl
+cirg 1
+cirg 2
+cirg 3
+cirg 4
+cirg 5
+cirg 6
+cirg 3 -fanin 3
+cirg 25 -fanin 4
+cirg 567 -fanin 6
+cirg 63 -fanout 5
+cirg 12 -fanin 1
+cirg 7 -fanin 1
+cirg 1 -fanout 10
+cirg 8 -fanout 1000
+cirg 10
+cirg 25 -fanin 10
+cirg 87
+cirg 1000
+cirg 1000 -fanin 1000
+cirw -o sim01.aag.out
+cirr C5315.aag -r 
+cirp -n
+cirp -s
+cirp -po
+cirp -pi
+cirp -fl
+cirg 1
+cirg 2
+cirg 3
+cirg 4
+cirg 5
+cirg 6
+cirg 3 -fanin 3
+cirg 25 -fanin 4
+cirg 567 -fanin 6
+cirg 63 -fanout 5
+cirg 12 -fanin 1
+cirg 7 -fanin 1
+cirg 1 -fanout 10
+cirg 8 -fanout 1000
+cirg 10
+cirg 25 -fanin 10
+cirg 87
+cirg 1000
+cirg 1000 -fanin 1000
+cirw -o C5315.aag.out
+cirr strash09.aag -r 
+cirp -n
+cirp -s
+cirp -po
+cirp -pi
+cirp -fl
+cirg 1
+cirg 2
+cirg 3
+cirg 4
+cirg 5
+cirg 6
+cirg 3 -fanin 3
+cirg 25 -fanin 4
+cirg 567 -fanin 6
+cirg 63 -fanout 5
+cirg 12 -fanin 1
+cirg 7 -fanin 1
+cirg 1 -fanout 10
+cirg 8 -fanout 1000
+cirg 10
+cirg 25 -fanin 10
+cirg 87
+cirg 1000
+cirg 1000 -fanin 1000
+cirw -o strash09.aag.out
+cirr sim11.aag -r 
+cirp -n
+cirp -s
+cirp -po
+cirp -pi
+cirp -fl
+cirg 1
+cirg 2
+cirg 3
+cirg 4
+cirg 5
+cirg 6
+cirg 3 -fanin 3
+cirg 25 -fanin 4
+cirg 567 -fanin 6
+cirg 63 -fanout 5
+cirg 12 -fanin 1
+cirg 7 -fanin 1
+cirg 1 -fanout 10
+cirg 8 -fanout 1000
+cirg 10
+cirg 25 -fanin 10
+cirg 87
+cirg 1000
+cirg 1000 -fanin 1000
+cirw -o sim11.aag.out
+cirr opt04.aag -r 
+cirp -n
+cirp -s
+cirp -po
+cirp -pi
+cirp -fl
+cirg 1
+cirg 2
+cirg 3
+cirg 4
+cirg 5
+cirg 6
+cirg 3 -fanin 3
+cirg 25 -fanin 4
+cirg 567 -fanin 6
+cirg 63 -fanout 5
+cirg 12 -fanin 1
+cirg 7 -fanin 1
+cirg 1 -fanout 10
+cirg 8 -fanout 1000
+cirg 10
+cirg 25 -fanin 10
+cirg 87
+cirg 1000
+cirg 1000 -fanin 1000
+cirw -o opt04.aag.out
+cirr test1.aag -r 
+cirp -n
+cirp -s
+cirp -po
+cirp -pi
+cirp -fl
+cirg 1
+cirg 2
+cirg 3
+cirg 4
+cirg 5
+cirg 6
+cirg 3 -fanin 3
+cirg 25 -fanin 4
+cirg 567 -fanin 6
+cirg 63 -fanout 5
+cirg 12 -fanin 1
+cirg 7 -fanin 1
+cirg 1 -fanout 10
+cirg 8 -fanout 1000
+cirg 10
+cirg 25 -fanin 10
+cirg 87
+cirg 1000
+cirg 1000 -fanin 1000
+cirw -o test1.aag.out
+cirr opt06.aag -r 
+cirp -n
+cirp -s
+cirp -po
+cirp -pi
+cirp -fl
+cirg 1
+cirg 2
+cirg 3
+cirg 4
+cirg 5
+cirg 6
+cirg 3 -fanin 3
+cirg 25 -fanin 4
+cirg 567 -fanin 6
+cirg 63 -fanout 5
+cirg 12 -fanin 1
+cirg 7 -fanin 1
+cirg 1 -fanout 10
+cirg 8 -fanout 1000
+cirg 10
+cirg 25 -fanin 10
+cirg 87
+cirg 1000
+cirg 1000 -fanin 1000
+cirw -o opt06.aag.out
+cirr sim12.aag -r 
+cirp -n
+cirp -s
+cirp -po
+cirp -pi
+cirp -fl
+cirg 1
+cirg 2
+cirg 3
+cirg 4
+cirg 5
+cirg 6
+cirg 3 -fanin 3
+cirg 25 -fanin 4
+cirg 567 -fanin 6
+cirg 63 -fanout 5
+cirg 12 -fanin 1
+cirg 7 -fanin 1
+cirg 1 -fanout 10
+cirg 8 -fanout 1000
+cirg 10
+cirg 25 -fanin 10
+cirg 87
+cirg 1000
+cirg 1000 -fanin 1000
+cirw -o sim12.aag.out
+cirr sim07.aag -r 
+cirp -n
+cirp -s
+cirp -po
+cirp -pi
+cirp -fl
+cirg 1
+cirg 2
+cirg 3
+cirg 4
+cirg 5
+cirg 6
+cirg 3 -fanin 3
+cirg 25 -fanin 4
+cirg 567 -fanin 6
+cirg 63 -fanout 5
+cirg 12 -fanin 1
+cirg 7 -fanin 1
+cirg 1 -fanout 10
+cirg 8 -fanout 1000
+cirg 10
+cirg 25 -fanin 10
+cirg 87
+cirg 1000
+cirg 1000 -fanin 1000
+cirw -o sim07.aag.out
+cirr sim10.aag -r 
+cirp -n
+cirp -s
+cirp -po
+cirp -pi
+cirp -fl
+cirg 1
+cirg 2
+cirg 3
+cirg 4
+cirg 5
+cirg 6
+cirg 3 -fanin 3
+cirg 25 -fanin 4
+cirg 567 -fanin 6
+cirg 63 -fanout 5
+cirg 12 -fanin 1
+cirg 7 -fanin 1
+cirg 1 -fanout 10
+cirg 8 -fanout 1000
+cirg 10
+cirg 25 -fanin 10
+cirg 87
+cirg 1000
+cirg 1000 -fanin 1000
+cirw -o sim10.aag.out
+cirr C432.aag -r 
+cirp -n
+cirp -s
+cirp -po
+cirp -pi
+cirp -fl
+cirg 1
+cirg 2
+cirg 3
+cirg 4
+cirg 5
+cirg 6
+cirg 3 -fanin 3
+cirg 25 -fanin 4
+cirg 567 -fanin 6
+cirg 63 -fanout 5
+cirg 12 -fanin 1
+cirg 7 -fanin 1
+cirg 1 -fanout 10
+cirg 8 -fanout 1000
+cirg 10
+cirg 25 -fanin 10
+cirg 87
+cirg 1000
+cirg 1000 -fanin 1000
+cirw -o C432.aag.out
+cirr C499_r.aag -r 
+cirp -n
+cirp -s
+cirp -po
+cirp -pi
+cirp -fl
+cirg 1
+cirg 2
+cirg 3
+cirg 4
+cirg 5
+cirg 6
+cirg 3 -fanin 3
+cirg 25 -fanin 4
+cirg 567 -fanin 6
+cirg 63 -fanout 5
+cirg 12 -fanin 1
+cirg 7 -fanin 1
+cirg 1 -fanout 10
+cirg 8 -fanout 1000
+cirg 10
+cirg 25 -fanin 10
+cirg 87
+cirg 1000
+cirg 1000 -fanin 1000
+cirw -o C499_r.aag.out
+cirr sim04.aag -r 
+cirp -n
+cirp -s
+cirp -po
+cirp -pi
+cirp -fl
+cirg 1
+cirg 2
+cirg 3
+cirg 4
+cirg 5
+cirg 6
+cirg 3 -fanin 3
+cirg 25 -fanin 4
+cirg 567 -fanin 6
+cirg 63 -fanout 5
+cirg 12 -fanin 1
+cirg 7 -fanin 1
+cirg 1 -fanout 10
+cirg 8 -fanout 1000
+cirg 10
+cirg 25 -fanin 10
+cirg 87
+cirg 1000
+cirg 1000 -fanin 1000
+cirw -o sim04.aag.out
+cirr opt05.aag -r 
+cirp -n
+cirp -s
+cirp -po
+cirp -pi
+cirp -fl
+cirg 1
+cirg 2
+cirg 3
+cirg 4
+cirg 5
+cirg 6
+cirg 3 -fanin 3
+cirg 25 -fanin 4
+cirg 567 -fanin 6
+cirg 63 -fanout 5
+cirg 12 -fanin 1
+cirg 7 -fanin 1
+cirg 1 -fanout 10
+cirg 8 -fanout 1000
+cirg 10
+cirg 25 -fanin 10
+cirg 87
+cirg 1000
+cirg 1000 -fanin 1000
+cirw -o opt05.aag.out
+cirr sim09.aag -r 
+cirp -n
+cirp -s
+cirp -po
+cirp -pi
+cirp -fl
+cirg 1
+cirg 2
+cirg 3
+cirg 4
+cirg 5
+cirg 6
+cirg 3 -fanin 3
+cirg 25 -fanin 4
+cirg 567 -fanin 6
+cirg 63 -fanout 5
+cirg 12 -fanin 1
+cirg 7 -fanin 1
+cirg 1 -fanout 10
+cirg 8 -fanout 1000
+cirg 10
+cirg 25 -fanin 10
+cirg 87
+cirg 1000
+cirg 1000 -fanin 1000
+cirw -o sim09.aag.out
+cirr C6288.aag -r 
+cirp -n
+cirp -s
+cirp -po
+cirp -pi
+cirp -fl
+cirg 1
+cirg 2
+cirg 3
+cirg 4
+cirg 5
+cirg 6
+cirg 3 -fanin 3
+cirg 25 -fanin 4
+cirg 567 -fanin 6
+cirg 63 -fanout 5
+cirg 12 -fanin 1
+cirg 7 -fanin 1
+cirg 1 -fanout 10
+cirg 8 -fanout 1000
+cirg 10
+cirg 25 -fanin 10
+cirg 87
+cirg 1000
+cirg 1000 -fanin 1000
+cirw -o C6288.aag.out
+cirr test2.aag -r 
+cirp -n
+cirp -s
+cirp -po
+cirp -pi
+cirp -fl
+cirg 1
+cirg 2
+cirg 3
+cirg 4
+cirg 5
+cirg 6
+cirg 3 -fanin 3
+cirg 25 -fanin 4
+cirg 567 -fanin 6
+cirg 63 -fanout 5
+cirg 12 -fanin 1
+cirg 7 -fanin 1
+cirg 1 -fanout 10
+cirg 8 -fanout 1000
+cirg 10
+cirg 25 -fanin 10
+cirg 87
+cirg 1000
+cirg 1000 -fanin 1000
+cirw -o test2.aag.out
+q -f

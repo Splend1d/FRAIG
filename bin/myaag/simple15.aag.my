@@ -1,0 +1,235 @@
+fraig> cirr ./myaag/simple15.aag
+
+fraig> cirp
+
+Circuit Statistics
+==================
+  PI          11
+  PO          11
+  AIG         15
+------------------
+  Total       37
+
+fraig> cirp -pi
+PIs of the circuit: 1 2 3 4 5 6 7 8 9 10 11
+
+fraig> cirp -po
+POs of the circuit: 31 32 33 34 35 36 37 38 39 40 41
+
+fraig> cirp -n
+
+[0] PI  10 (AFFAUJ)
+[1] PI  2 (KFTDJX)
+[2] AIG 29 10 !2
+[3] PO  31 29 (EQIYNT)
+[4] PI  8 (UNKXHD)
+[5] AIG 28 10 !8
+[6] PO  32 28 (DJGNGP)
+[7] PI  5 (CZYPDW)
+[8] PI  1 (SUKVVB)
+[9] PI  7 (DFTXJD)
+[10] AIG 21 1 !7
+[11] AIG 26 !5 21
+[12] PO  33 26 (SEPNYS)
+[13] PI  9 (WZUUBE)
+[14] AIG 23 !8 9
+[15] PI  3 (CFBTRZ)
+[16] AIG 22 !7 3
+[17] AIG 25 23 !22
+[18] PO  34 25 (TYXYZS)
+[19] AIG 24 !5 23
+[20] PO  35 24 (HYCQQP)
+[21] PO  36 23 (TUFBUU)
+[22] PO  37 22 (UXDAML)
+[23] PO  38 21 (SFPJUP)
+[24] AIG 19 7 !9
+[25] PO  39 19 (BNNYNO)
+[26] CONST0
+[27] AIG 12 !8 0
+[28] AIG 18 12 !5
+[29] PO  40 18 (SVOXLE)
+[30] AIG 17 !10 3
+[31] PO  41 17 (MEZRHV)
+
+fraig> cirp -fl
+Gates defined but not used  : 4 6 11 13 15 16
+
+fraig> usage
+Period time used : 0 seconds
+Total time used  : 0 seconds
+Total memory used: 0 M Bytes
+
+fraig> ciropt
+Simplifying: 0 merging 12...
+Simplifying: 0 merging 18...
+
+fraig> cirp
+
+Circuit Statistics
+==================
+  PI          11
+  PO          11
+  AIG         13
+------------------
+  Total       35
+
+fraig> usage
+Period time used : 0 seconds
+Total time used  : 0 seconds
+Total memory used: 0 M Bytes
+
+fraig> cirsw
+Sweeping: AIG(16) removed...
+Sweeping: AIG(13) removed...
+Sweeping: AIG(15) removed...
+
+fraig> cirp
+
+Circuit Statistics
+==================
+  PI          11
+  PO          11
+  AIG         10
+------------------
+  Total       32
+
+fraig> usage
+Period time used : 0 seconds
+Total time used  : 0 seconds
+Total memory used: 0 M Bytes
+
+fraig> cirstrash
+
+fraig> usage
+Period time used : 0 seconds
+Total time used  : 0 seconds
+Total memory used: 0 M Bytes
+
+fraig> cirsw
+
+fraig> cirp
+
+Circuit Statistics
+==================
+  PI          11
+  PO          11
+  AIG         10
+------------------
+  Total       32
+
+fraig> usage
+Period time used : 0 seconds
+Total time used  : 0 seconds
+Total memory used: 0 M Bytes
+
+fraig> cirsim -random
+Total #FEC Group = 0Total #FEC Group = 0Total #FEC Group = 0Total #FEC Group = 0Total #FEC Group = 0Total #FEC Group = 0Total #FEC Group = 0Total #FEC Group = 0Total #FEC Group = 0Total #FEC Group = 0Total #FEC Group = 0Total #FEC Group = 0Total #FEC Group = 0Total #FEC Group = 0Total #FEC Group = 0Total #FEC Group = 0Total #FEC Group = 0Total #FEC Group = 0Total #FEC Group = 0Total #FEC Group = 0Total #FEC Group = 0Total #FEC Group = 0Total #FEC Group = 0Total #FEC Group = 0Total #FEC Group = 0Total #FEC Group = 0Total #FEC Group = 0Total #FEC Group = 0Total #FEC Group = 0Total #FEC Group = 0Total #FEC Group = 0Total #FEC Group = 0Total #FEC Group = 0Total #FEC Group = 0Total #FEC Group = 0Total #FEC Group = 0Total #FEC Group = 0Total #FEC Group = 0Total #FEC Group = 0Total #FEC Group = 0Total #FEC Group = 0Total #FEC Group = 0Total #FEC Group = 0Total #FEC Group = 0Total #FEC Group = 0Total #FEC Group = 0Total #FEC Group = 0Total #FEC Group = 0Total #FEC Group = 0Total #FEC Group = 0Total #FEC Group = 0Total #FEC Group = 0Total #FEC Group = 0Total #FEC Group = 0Total #FEC Group = 0Total #FEC Group = 0Total #FEC Group = 0Total #FEC Group = 0Total #FEC Group = 0Total #FEC Group = 0Total #FEC Group = 0Total #FEC Group = 0Total #FEC Group = 0Total #FEC Group = 0Total #FEC Group = 0Total #FEC Group = 0Total #FEC Group = 0Total #FEC Group = 0Total #FEC Group = 0Total #FEC Group = 0Total #FEC Group = 0Total #FEC Group = 0Total #FEC Group = 0Total #FEC Group = 0Total #FEC Group = 0Total #FEC Group = 0Total #FEC Group = 0Total #FEC Group = 0Total #FEC Group = 0Total #FEC Group = 0Total #FEC Group = 0Total #FEC Group = 0Total #FEC Group = 0Total #FEC Group = 0Total #FEC Group = 0Total #FEC Group = 0Total #FEC Group = 0Total #FEC Group = 0Total #FEC Group = 0Total #FEC Group = 0Total #FEC Group = 0Total #FEC Group = 0Total #FEC Group = 0Total #FEC Group = 0Total #FEC Group = 0Total #FEC Group = 0Total #FEC Group = 0Total #FEC Group = 0Total #FEC Group = 0Total #FEC Group = 0Total #FEC Group = 0Total #FEC Group = 0Total #FEC Group = 0Total #FEC Group = 0Total #FEC Group = 0Total #FEC Group = 0Total #FEC Group = 0Total #FEC Group = 0Total #FEC Group = 0Total #FEC Group = 0Total #FEC Group = 0Total #FEC Group = 0Total #FEC Group = 0Total #FEC Group = 0Total #FEC Group = 0Total #FEC Group = 0Total #FEC Group = 0Total #FEC Group = 0Total #FEC Group = 0Total #FEC Group = 0Total #FEC Group = 0Total #FEC Group = 0Total #FEC Group = 0Total #FEC Group = 0Total #FEC Group = 0Total #FEC Group = 0Total #FEC Group = 0Total #FEC Group = 0Total #FEC Group = 08256 patterns simulated.
+
+fraig> usage
+Period time used : 0 seconds
+Total time used  : 0 seconds
+Total memory used: 0 M Bytes
+
+fraig> cirp -fec
+
+fraig> usage
+Period time used : 0 seconds
+Total time used  : 0 seconds
+Total memory used: 0 M Bytes
+
+fraig> cirfraig
+
+fraig> cirp
+
+Circuit Statistics
+==================
+  PI          11
+  PO          11
+  AIG         10
+------------------
+  Total       32
+
+fraig> usage
+Period time used : 0 seconds
+Total time used  : 0 seconds
+Total memory used: 0 M Bytes
+
+fraig> ciropt
+
+fraig> cirp
+
+Circuit Statistics
+==================
+  PI          11
+  PO          11
+  AIG         10
+------------------
+  Total       32
+
+fraig> usage
+Period time used : 0 seconds
+Total time used  : 0 seconds
+Total memory used: 0 M Bytes
+
+fraig> cirsw
+
+fraig> cirp
+
+Circuit Statistics
+==================
+  PI          11
+  PO          11
+  AIG         10
+------------------
+  Total       32
+
+fraig> usage
+Period time used : 0 seconds
+Total time used  : 0 seconds
+Total memory used: 0 M Bytes
+
+fraig> cirp -n
+
+[0] PI  10 (AFFAUJ)
+[1] PI  2 (KFTDJX)
+[2] AIG 29 10 !2
+[3] PO  31 29 (EQIYNT)
+[4] PI  8 (UNKXHD)
+[5] AIG 28 10 !8
+[6] PO  32 28 (DJGNGP)
+[7] PI  5 (CZYPDW)
+[8] PI  1 (SUKVVB)
+[9] PI  7 (DFTXJD)
+[10] AIG 21 1 !7
+[11] AIG 26 !5 21
+[12] PO  33 26 (SEPNYS)
+[13] PI  9 (WZUUBE)
+[14] AIG 23 !8 9
+[15] PI  3 (CFBTRZ)
+[16] AIG 22 !7 3
+[17] AIG 25 23 !22
+[18] PO  34 25 (TYXYZS)
+[19] AIG 24 !5 23
+[20] PO  35 24 (HYCQQP)
+[21] PO  36 23 (TUFBUU)
+[22] PO  37 22 (UXDAML)
+[23] PO  38 21 (SFPJUP)
+[24] AIG 19 7 !9
+[25] PO  39 19 (BNNYNO)
+[26] CONST0
+[27] PO  40 0 (SVOXLE)
+[28] AIG 17 !10 3
+[29] PO  41 17 (MEZRHV)
+
+fraig> cirp -fl
+Gates defined but not used  : 4 6 11
+
+fraig> cirp -fec
+
+fraig> usage
+Period time used : 0 seconds
+Total time used  : 0 seconds
+Total memory used: 0 M Bytes
+
+fraig> q -f
+

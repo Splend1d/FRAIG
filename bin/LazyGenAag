@@ -1,0 +1,108 @@
+echo "> Compiling..."
+g++ -o aag2Gen aag2Gen.cpp -O3
+g++ -o aagGen aagGen.cpp -O3
+g++ -o ptnGen ptnGen.cpp -O3
+rm -r -f myaag
+mkdir myaag
+
+echo "> Generating simple..."
+./aag2Gen myaag/simple01.aag 10 1 0 1 1
+./aag2Gen myaag/simple02.aag 10 2 0 2 2
+./aag2Gen myaag/simple03.aag 10 3 0 3 3
+./aag2Gen myaag/simple04.aag 20 4 0 4 4
+./aag2Gen myaag/simple05.aag 20 5 0 5 5
+./aag2Gen myaag/simple06.aag 20 6 0 6 6
+./aag2Gen myaag/simple07.aag 20 1 0 1 7
+./aag2Gen myaag/simple08.aag 20 2 0 2 8
+./aag2Gen myaag/simple09.aag 20 3 0 3 9
+./aag2Gen myaag/simple10.aag 20 4 0 4 10
+./aag2Gen myaag/simple11.aag 20 5 0 5 11
+./aag2Gen myaag/simple12.aag 20 6 0 6 12
+./aag2Gen myaag/simple13.aag 20 11 0 11 13
+./aag2Gen myaag/simple14.aag 20 11 0 11 14
+./aag2Gen myaag/simple15.aag 30 11 0 11 15
+./run.fraig.all
+
+echo "> Generating dag..."
+./aag2Gen myaag/dag01.aag 10 5 0 5 4
+./aag2Gen myaag/dag02.aag 20 5 0 10 12
+./aag2Gen myaag/dag03.aag 50 10 0 10 30
+./aag2Gen myaag/dag04.aag 100 10 0 10 80
+./aag2Gen myaag/dag05.aag 500 10 0 10 400
+./aag2Gen myaag/dag06.aag 1000 10 0 10 900
+./aag2Gen myaag/dag07.aag 5000 20 0 200 4500
+./aag2Gen myaag/dag08.aag 10000 200 0 200 9000
+./aag2Gen myaag/dag09.aag 20000 300 0 300 10000
+./aag2Gen myaag/dag10.aag 50000 500 0 500 40000
+./aag2Gen myaag/dag11.aag 100000 1500 0 1500 80000
+./aag2Gen myaag/dag12.aag 150000 2000 0 2000 140000
+./aag2Gen myaag/dag13.aag 200000 2500 0 2500 180000
+./aag2Gen myaag/dag14.aag 250000 3000 0 3000 230000
+./aag2Gen myaag/dag15.aag 500000 4000 0 4000 400000
+./run.dag.all
+
+echo "> Generating cyc..."
+./aagGen myaag/cyc01.aag 10 5 0 5 4
+./aagGen myaag/cyc02.aag 20 5 0 10 12
+./aagGen myaag/cyc03.aag 50 10 0 10 30
+./aagGen myaag/cyc04.aag 100 10 0 10 80
+./aagGen myaag/cyc05.aag 500 10 0 10 400
+./aagGen myaag/cyc06.aag 1000 10 0 10 900
+./aagGen myaag/cyc07.aag 5000 20 0 20 4500
+./aagGen myaag/cyc08.aag 10000 200 0 200 9000
+./aagGen myaag/cyc09.aag 20000 300 0 300 10000
+./aagGen myaag/cyc10.aag 50000 500 0 500 40000
+./aagGen myaag/cyc11.aag 100000 1500 0 1500 80000
+./aagGen myaag/cyc12.aag 150000 2000 0 2000 140000
+./aagGen myaag/cyc13.aag 200000 2500 0 2500 180000
+./aagGen myaag/cyc14.aag 250000 3000 0 3000 230000
+./aagGen myaag/cyc15.aag 500000 4000 0 4000 400000
+
+echo "> Generating ptn..."
+./ptnGen myaag/ptn.01 5 32
+./ptnGen myaag/ptn.02 5 64
+./ptnGen myaag/ptn.03 10 128
+./ptnGen myaag/ptn.04 10 160
+./ptnGen myaag/ptn.05 10 200
+./ptnGen myaag/ptn.06 10 250
+./ptnGen myaag/ptn.07 20 500
+./ptnGen myaag/ptn.08 200 960
+./ptnGen myaag/ptn.09 300 1200
+./ptnGen myaag/ptn.10 500 2500
+#./ptnGen myaag/ptn.11 25000 3600
+#./ptnGen myaag/ptn.12 50000 5200
+#./ptnGen myaag/ptn.13 80000 7200
+#./ptnGen myaag/ptn.14 100000 8000
+#./ptnGen myaag/ptn.15 100000 10000
+
+./fraig -f myaag/simple01.aag > myaag/simple01.aag.my
+./fraig -f myaag/simple02.aag > myaag/simple02.aag.my
+./fraig -f myaag/simple03.aag > myaag/simple03.aag.my
+./fraig -f myaag/simple04.aag > myaag/simple04.aag.my
+./fraig -f myaag/simple05.aag > myaag/simple05.aag.my
+./fraig -f myaag/simple06.aag > myaag/simple06.aag.my
+./fraig -f myaag/simple07.aag > myaag/simple07.aag.my
+./fraig -f myaag/simple08.aag > myaag/simple08.aag.my
+./fraig -f myaag/simple09.aag > myaag/simple09.aag.my
+./fraig -f myaag/simple10.aag > myaag/simple10.aag.my
+./fraig -f myaag/simple11.aag > myaag/simple11.aag.my
+./fraig -f myaag/simple12.aag > myaag/simple12.aag.my
+./fraig -f myaag/simple13.aag > myaag/simple13.aag.my
+./fraig -f myaag/simple14.aag > myaag/simple14.aag.my
+./fraig -f myaag/simple15.aag > myaag/simple15.aag.my
+
+./fraig -f myaag/dag01.aag > myaag/dag01.aag.my
+./fraig -f myaag/dag02.aag > myaag/dag02.aag.my
+./fraig -f myaag/dag03.aag > myaag/dag03.aag.my
+./fraig -f myaag/dag04.aag > myaag/dag04.aag.my
+./fraig -f myaag/dag05.aag > myaag/dag05.aag.my
+./fraig -f myaag/dag06.aag > myaag/dag06.aag.my
+./fraig -f myaag/dag07.aag > myaag/dag07.aag.my
+./fraig -f myaag/dag08.aag > myaag/dag08.aag.my
+./fraig -f myaag/dag09.aag > myaag/dag09.aag.my
+./fraig -f myaag/dag10.aag > myaag/dag10.aag.my
+./fraig -f myaag/dag11.aag > myaag/dag11.aag.my
+./fraig -f myaag/dag12.aag > myaag/dag12.aag.my
+./fraig -f myaag/dag13.aag > myaag/dag13.aag.my
+./fraig -f myaag/dag14.aag > myaag/dag14.aag.my
+./fraig -f myaag/dag15.aag > myaag/dag15.aag.my

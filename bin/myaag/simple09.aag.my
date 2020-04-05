@@ -1,0 +1,196 @@
+fraig> cirr ./myaag/simple09.aag
+
+fraig> cirp
+
+Circuit Statistics
+==================
+  PI           3
+  PO           3
+  AIG          9
+------------------
+  Total       15
+
+fraig> cirp -pi
+PIs of the circuit: 1 2 3
+
+fraig> cirp -po
+POs of the circuit: 21 22 23
+
+fraig> cirp -n
+
+[0] PI  3 (TJDRAS)
+[1] AIG 7 3 3
+[2] CONST0
+[3] PI  2 (BEJIAF)
+[4] AIG 4 !0 !2
+[5] AIG 6 !0 4
+[6] AIG 8 !6 4
+[7] AIG 20 !7 8
+[8] PO  21 20 (PSGLBK)
+[9] AIG 19 8 4
+[10] PO  22 19 (PHSBLH)
+[11] AIG 18 6 !7
+[12] PO  23 18 (KDOQWL)
+
+fraig> cirp -fl
+Gates defined but not used  : 1 14 16
+
+fraig> usage
+Period time used : 0 seconds
+Total time used  : 0 seconds
+Total memory used: 0 M Bytes
+
+fraig> ciropt
+Simplifying: 3 merging 7...
+Simplifying: 2 merging !4...
+Simplifying: 2 merging !6...
+Simplifying: 0 merging 8...
+Simplifying: 0 merging 20...
+Simplifying: 0 merging 19...
+
+fraig> cirp
+
+Circuit Statistics
+==================
+  PI           3
+  PO           3
+  AIG          3
+------------------
+  Total        9
+
+fraig> usage
+Period time used : 0 seconds
+Total time used  : 0 seconds
+Total memory used: 0 M Bytes
+
+fraig> cirsw
+Sweeping: AIG(16) removed...
+Sweeping: AIG(14) removed...
+
+fraig> cirp
+
+Circuit Statistics
+==================
+  PI           3
+  PO           3
+  AIG          1
+------------------
+  Total        7
+
+fraig> usage
+Period time used : 0 seconds
+Total time used  : 0 seconds
+Total memory used: 0 M Bytes
+
+fraig> cirstrash
+
+fraig> usage
+Period time used : 0 seconds
+Total time used  : 0 seconds
+Total memory used: 0 M Bytes
+
+fraig> cirsw
+
+fraig> cirp
+
+Circuit Statistics
+==================
+  PI           3
+  PO           3
+  AIG          1
+------------------
+  Total        7
+
+fraig> usage
+Period time used : 0 seconds
+Total time used  : 0 seconds
+Total memory used: 0 M Bytes
+
+fraig> cirsim -random
+Total #FEC Group = 064 patterns simulated.
+
+fraig> usage
+Period time used : 0 seconds
+Total time used  : 0 seconds
+Total memory used: 0 M Bytes
+
+fraig> cirp -fec
+
+fraig> usage
+Period time used : 0 seconds
+Total time used  : 0 seconds
+Total memory used: 0 M Bytes
+
+fraig> cirfraig
+
+fraig> cirp
+
+Circuit Statistics
+==================
+  PI           3
+  PO           3
+  AIG          1
+------------------
+  Total        7
+
+fraig> usage
+Period time used : 0 seconds
+Total time used  : 0 seconds
+Total memory used: 0 M Bytes
+
+fraig> ciropt
+
+fraig> cirp
+
+Circuit Statistics
+==================
+  PI           3
+  PO           3
+  AIG          1
+------------------
+  Total        7
+
+fraig> usage
+Period time used : 0 seconds
+Total time used  : 0 seconds
+Total memory used: 0 M Bytes
+
+fraig> cirsw
+
+fraig> cirp
+
+Circuit Statistics
+==================
+  PI           3
+  PO           3
+  AIG          1
+------------------
+  Total        7
+
+fraig> usage
+Period time used : 0 seconds
+Total time used  : 0 seconds
+Total memory used: 0 M Bytes
+
+fraig> cirp -n
+
+[0] CONST0
+[1] PO  21 0 (PSGLBK)
+[2] PO  22 0 (PHSBLH)
+[3] PI  2 (BEJIAF)
+[4] PI  3 (TJDRAS)
+[5] AIG 18 !2 !3
+[6] PO  23 18 (KDOQWL)
+
+fraig> cirp -fl
+Gates defined but not used  : 1
+
+fraig> cirp -fec
+
+fraig> usage
+Period time used : 0 seconds
+Total time used  : 0 seconds
+Total memory used: 0 M Bytes
+
+fraig> q -f
+

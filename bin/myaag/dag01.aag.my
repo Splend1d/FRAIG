@@ -1,0 +1,47 @@
+fraig> cirr ./myaag/dag01.aag
+
+fraig> cirp
+
+Circuit Statistics
+==================
+  PI           5
+  PO           5
+  AIG          4
+------------------
+  Total       14
+
+fraig> cirp -pi
+PIs of the circuit: 1 2 3 4 5
+
+fraig> cirp -po
+POs of the circuit: 11 12 13 14 15
+
+fraig> cirp -n
+
+[0] CONST0
+[1] PI  4 (VEMBIU)
+[2] AIG 10 0 4
+[3] PO  11 10 (AHOXCP)
+[4] AIG 8 !4 4
+[5] PO  12 8 (UBZFSS)
+[6] PI  3 (KEGJUO)
+[7] PI  2 (WILRSW)
+[8] AIG 7 3 2
+[9] PO  13 7 (DEWMNQ)
+[10] PI  5 (ZUTSVZ)
+[11] AIG 6 5 !4
+[12] PO  14 6 (CKWOMF)
+[13] PO  15 *81 (JNBEHW)
+
+fraig> cirp -fl
+Gates with floating fanin(s): 15
+Gates defined but not used  : 1
+
+fraig> usage
+Period time used : 0 seconds
+Total time used  : 0 seconds
+Total memory used: 0 M Bytes
+
+fraig> ciropt
+Simplifying: 0 merging 10...
+Simplifying: 0 merging 8...

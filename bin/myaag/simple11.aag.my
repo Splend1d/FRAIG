@@ -1,0 +1,208 @@
+fraig> cirr ./myaag/simple11.aag
+
+fraig> cirp
+
+Circuit Statistics
+==================
+  PI           5
+  PO           5
+  AIG         11
+------------------
+  Total       21
+
+fraig> cirp -pi
+PIs of the circuit: 1 2 3 4 5
+
+fraig> cirp -po
+POs of the circuit: 21 22 23 24 25
+
+fraig> cirp -n
+
+[0] PI  4 (SBLHKD)
+[1] PI  2 (DRASPS)
+[2] AIG 6 !2 !4
+[3] PI  1 (JIAFTJ)
+[4] AIG 7 !6 1
+[5] AIG 9 !7 7
+[6] AIG 15 9 !2
+[7] AIG 20 !4 15
+[8] PO  21 20 (PMJQTC)
+[9] PI  5 (OQWLDZ)
+[10] AIG 19 2 !5
+[11] PO  22 19 (BXVEPM)
+[12] PI  3 (GLBKPH)
+[13] AIG 10 !3 2
+[14] AIG 18 !10 3
+[15] PO  23 18 (WXXZJO)
+[16] AIG 17 2 4
+[17] PO  24 17 (GBSTKC)
+[18] PO  25 15 (WZSUKV)
+
+fraig> cirp -fl
+Gates defined but not used  : 8 13
+
+fraig> usage
+Period time used : 0 seconds
+Total time used  : 0 seconds
+Total memory used: 0 M Bytes
+
+fraig> ciropt
+Simplifying: 0 merging 9...
+Simplifying: 0 merging 15...
+Simplifying: 0 merging 20...
+
+fraig> cirp
+
+Circuit Statistics
+==================
+  PI           5
+  PO           5
+  AIG          8
+------------------
+  Total       18
+
+fraig> usage
+Period time used : 0 seconds
+Total time used  : 0 seconds
+Total memory used: 0 M Bytes
+
+fraig> cirsw
+Sweeping: AIG(13) removed...
+Sweeping: AIG(8) removed...
+Sweeping: AIG(6) removed...
+Sweeping: AIG(7) removed...
+
+fraig> cirp
+
+Circuit Statistics
+==================
+  PI           5
+  PO           5
+  AIG          4
+------------------
+  Total       14
+
+fraig> usage
+Period time used : 0 seconds
+Total time used  : 0 seconds
+Total memory used: 0 M Bytes
+
+fraig> cirstrash
+
+fraig> usage
+Period time used : 0 seconds
+Total time used  : 0 seconds
+Total memory used: 0 M Bytes
+
+fraig> cirsw
+
+fraig> cirp
+
+Circuit Statistics
+==================
+  PI           5
+  PO           5
+  AIG          4
+------------------
+  Total       14
+
+fraig> usage
+Period time used : 0 seconds
+Total time used  : 0 seconds
+Total memory used: 0 M Bytes
+
+fraig> cirsim -random
+Total #FEC Group = 0Total #FEC Group = 0Total #FEC Group = 0192 patterns simulated.
+
+fraig> usage
+Period time used : 0 seconds
+Total time used  : 0 seconds
+Total memory used: 0 M Bytes
+
+fraig> cirp -fec
+
+fraig> usage
+Period time used : 0 seconds
+Total time used  : 0 seconds
+Total memory used: 0 M Bytes
+
+fraig> cirfraig
+
+fraig> cirp
+
+Circuit Statistics
+==================
+  PI           5
+  PO           5
+  AIG          4
+------------------
+  Total       14
+
+fraig> usage
+Period time used : 0 seconds
+Total time used  : 0 seconds
+Total memory used: 0 M Bytes
+
+fraig> ciropt
+
+fraig> cirp
+
+Circuit Statistics
+==================
+  PI           5
+  PO           5
+  AIG          4
+------------------
+  Total       14
+
+fraig> usage
+Period time used : 0 seconds
+Total time used  : 0 seconds
+Total memory used: 0 M Bytes
+
+fraig> cirsw
+
+fraig> cirp
+
+Circuit Statistics
+==================
+  PI           5
+  PO           5
+  AIG          4
+------------------
+  Total       14
+
+fraig> usage
+Period time used : 0 seconds
+Total time used  : 0 seconds
+Total memory used: 0 M Bytes
+
+fraig> cirp -n
+
+[0] CONST0
+[1] PO  21 0 (PMJQTC)
+[2] PI  2 (DRASPS)
+[3] PI  5 (OQWLDZ)
+[4] AIG 19 2 !5
+[5] PO  22 19 (BXVEPM)
+[6] PI  3 (GLBKPH)
+[7] AIG 10 !3 2
+[8] AIG 18 !10 3
+[9] PO  23 18 (WXXZJO)
+[10] PI  4 (SBLHKD)
+[11] AIG 17 2 4
+[12] PO  24 17 (GBSTKC)
+[13] PO  25 0 (WZSUKV)
+
+fraig> cirp -fl
+Gates defined but not used  : 1
+
+fraig> cirp -fec
+
+fraig> usage
+Period time used : 0 seconds
+Total time used  : 0 seconds
+Total memory used: 0 M Bytes
+
+fraig> q -f
+

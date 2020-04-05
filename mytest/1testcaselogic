@@ -1,0 +1,4 @@
+opt01:UNDEF logic - ok to propogate UNDEF gate
+opt02:UNDEF logic - delete UNDEF when no fanout
+opt03:DEFUNUSED logic - don't delete AIG when no fanout
+

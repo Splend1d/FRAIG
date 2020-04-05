@@ -1,0 +1,25 @@
+cirr strash10.aag
+cirp
+cirp -pi
+cirp -po
+cirp -n
+cirp -fl
+cirstrash
+cirp
+cirp -pi
+cirp -po
+cirp -n
+cirp -fl
+cirg 1
+cirg 2
+cirg 3
+cirg 4
+cirg 5 -fanout 1100
+cirg 6
+cirg 7
+cirg 8
+cirg 9 -fanin 100
+cirg 10
+cirg 11
+cirg 12 -fanout 10
+q -f

@@ -1,0 +1,15 @@
+./run.fraig.r 01
+./run.fraig.r 02
+./run.fraig.r 03
+./run.fraig.r 04
+./run.fraig.r 05
+./run.fraig.r 06
+./run.fraig.r 07
+./run.fraig.r 08
+./run.fraig.r 09
+./run.fraig.r 10
+./run.fraig.r 11
+./run.fraig.r 12
+./run.fraig.r 13
+./run.fraig.r 14
+./run.fraig.r 15
